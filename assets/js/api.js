@@ -1,6 +1,8 @@
+import dotenv from 'dotenv';
+dotenv.config();
 'use strict';
 
-const api_key = "e18447fd5097586d2b95f434048dbc66";
+const api_key = process.env.API_KEY;
 
 /**
  * Fetch data from server
