@@ -1,8 +1,10 @@
-import dotenv from 'dotenv';
-dotenv.config();
+/*const dotenv = require('dotenv');
+dotenv.config();*/
 'use strict';
 
-const api_key = process.env.API_KEY;
+/* TODO: Improve security */
+/*const api_key = process.env.API_KEY;*/
+const api_key = "e18447fd5097586d2b95f434048dbc66";
 
 /**
  * Fetch data from server
